@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Mechaduino01)(type Legacy)(uri "$(KIPRJMOD)\\Mechaduino01.mod")(options "")(descr ""))
+  (lib (name "Mechaduino DR 1")(type KiCad)(uri "$(KIPRJMOD)\\Mechaduino DR 1.pretty")(options "")(descr ""))
+  (lib (name "DR logo")(type KiCad)(uri "$(KIPRJMOD)\\DR logo.pretty")(options "")(descr ""))
+)

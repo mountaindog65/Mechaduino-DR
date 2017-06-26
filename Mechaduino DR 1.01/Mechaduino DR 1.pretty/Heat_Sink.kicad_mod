@@ -1,0 +1,18 @@
+(module Heat_Sink (layer F.Cu) (tedit 594EE7CE)
+  (attr virtual)
+  (fp_text reference HS (at -0.127 3.175) (layer F.SilkS) hide
+    (effects (font (thickness 0.15)))
+  )
+  (fp_text value HS (at 0.127 -3.302) (layer F.SilkS) hide
+    (effects (font (thickness 0.15)))
+  )
+  (pad HS connect rect (at 0 0) (size 3.5 3.5) (layers *.Mask B.Cu))
+  (pad HS connect rect (at 0 0) (size 3.5 3.5) (layers *.Mask F.Cu)
+    (zone_connect 2))
+  (pad ~ thru_hole circle (at -1.143 -1.143) (size 1 1) (drill 0.4) (layers *.Cu *.Mask))
+  (pad ~ thru_hole circle (at 0 -1.143) (size 1 1) (drill 0.4) (layers *.Cu *.Mask))
+  (pad ~ thru_hole circle (at 1.143 -1.143) (size 1 1) (drill 0.4) (layers *.Cu *.Paste *.Mask))
+  (pad ~ thru_hole circle (at 1.143 1.143) (size 1 1) (drill 0.4) (layers *.Cu *.Mask))
+  (pad ~ thru_hole circle (at 0 1.143) (size 1 1) (drill 0.4) (layers *.Cu *.Mask))
+  (pad ~ thru_hole circle (at -1.143 1.143) (size 1 1) (drill 0.4) (layers *.Cu *.Mask))
+)
